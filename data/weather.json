@@ -1,0 +1,28 @@
+{
+  "home": {
+    "$url": "/",
+    "$absolute": true
+  },
+  "search": "/places",
+  "place": "/${0}",
+  "places": {
+    "$url": "/",
+    "byAdm1": "/${0}"
+  },
+  "widget": {
+    "$absolute": true,
+    "$url": "/widget",
+    "widgetFrame": "/widget/widget_frame",
+    "widgetScript": "/widget/widget_script"
+  },
+  "widget2": {
+    "$absolute": true,
+    "$url": "/widget2",
+    "widgetFrame": "/widget2/widget_frame",
+    "widgetHtmlScript": "/widget2/widget_html_script"
+  },
+  "controls": {
+    "$absolute": true,
+    "morePlaces": "/controls/more_places/${0}/${1}.json"
+  }
+}
