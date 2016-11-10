@@ -18,4 +18,9 @@ describe('links', function() {
 
 		assert.equal('/widget/widget_frame', mdLinks.weather.widget.widgetFrame());
 	});
+
+	it('should create country links and .host', function() {
+		var mdLinks = links.country('md');
+		assert.equal('news.click.md', mdLinks.news.host);
+	});
 });
