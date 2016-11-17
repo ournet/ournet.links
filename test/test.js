@@ -17,6 +17,9 @@ describe('links', function() {
 		assert.equal('/?ul=ru', mdLinks.weather.home({ ul: 'ru' }));
 
 		assert.equal('/widget/widget_frame', mdLinks.weather.widget.widgetFrame());
+		assert.equal('/newsletter/unsubscribe/1', mdLinks.weather.newsletter.unsubscribe(1));
+
+		assert.equal('/vremea/1', mdLinks.weather.place(1));
 	});
 
 	it('should create country links and .host', function() {

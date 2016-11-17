@@ -1,28 +1,33 @@
 {
   "home": {
-    "$url": "/",
-    "$absolute": true
+    "$root": true,
+    "$url": "/"
   },
   "search": "/places",
   "place": "/${0}",
   "places": {
+    "$path": "/places",
     "$url": "/",
     "byAdm1": "/${0}"
   },
   "widget": {
-    "$absolute": true,
+    "$root": true,
     "$url": "/widget",
     "widgetFrame": "/widget/widget_frame",
     "widgetScript": "/widget/widget_script"
   },
   "widget2": {
-    "$absolute": true,
+    "$root": true,
     "$url": "/widget2",
     "widgetFrame": "/widget2/widget_frame",
     "widgetHtmlScript": "/widget2/widget_html_script"
   },
   "controls": {
-    "$absolute": true,
+    "$root": true,
     "morePlaces": "/controls/more_places/${0}/${1}.json"
+  },
+  "newsletter": {
+    "$root": true,
+    "unsubscribe": "/newsletter/unsubscribe/${0}"
   }
 }
