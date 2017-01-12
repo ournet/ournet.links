@@ -6,10 +6,10 @@
   "search": "/places",
   "place": "/${0}",
   "places": {
-    "$path": "/places",
-    "$url": "/",
-    "byAdm1": "/${0}"
+    "$url": "/places",
+    "byAdm1": "/places/${0}"
   },
+  "placeDays":"/${0}/${1}days",
   "widget": {
     "$root": true,
     "$url": "/widget",
