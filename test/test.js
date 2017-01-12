@@ -19,7 +19,7 @@ describe('links', function() {
 		assert.equal('/widget/widget_frame', mdLinks.weather.widget.widgetFrame());
 		assert.equal('/newsletter/unsubscribe/1', mdLinks.weather.newsletter.unsubscribe(1));
 
-		assert.equal('/vremea/1', mdLinks.weather.place(1));
+		assert.equal('/1', mdLinks.weather.place(1));
 	});
 
 	it('should create country links and .host', function() {
