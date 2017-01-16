@@ -20,6 +20,9 @@ describe('links', function() {
 		assert.equal('/newsletter/unsubscribe/1', mdLinks.weather.newsletter.unsubscribe(1));
 
 		assert.equal('/1', mdLinks.weather.place(1));
+
+		assert.equal('/', mdLinks.horoscope.home());
+		assert.equal('/1/tomorrow', mdLinks.horoscope.sign.period(1, 'tomorrow'));
 	});
 
 	it('should create country links and .host', function() {
