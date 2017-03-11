@@ -1,8 +1,8 @@
 {
   "home": "/",
   "controls": {
-    "mainRates": "/main_rates/${0}.json",
-    "exchangeTable": "/generalexchangetable/${0}"
+    "mainRates": "/controls/main_rates/${0}.json",
+    "exchangeTable": "/controls/generalexchangetable/${0}"
   },
   "rates": "/rates/${0}"
 }

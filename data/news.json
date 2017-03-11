@@ -14,23 +14,22 @@
   "video": "/video",
   "url": {
     "$url": "/url",
-    "news": "/news/${0}"
+    "news": "/url/news/${0}"
   },
   "actions": {
-    "$root": true,
     "viewStory": "/actions/view_story/${0}"
   },
   "videoFrame": "/controls/video_frame/${0}",
   "sources": "/sources",
   "source": "/source/${0}",
   "controls": {
-    "videoFrame": "/video_frame/${0}"
+    "videoFrame": "/controls/video_frame/${0}"
   },
   "rss": {
     "stories": {
-      "$url": "/stories.xml",
-      "topic": "/topic/${0}.xml",
-      "important": "/important.xml"
+      "$url": "/rss/stories.xml",
+      "topic": "/rss/stories/topic/${0}.xml",
+      "important": "/rss/stories/important.xml"
     }
   }
 }
