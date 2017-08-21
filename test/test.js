@@ -25,8 +25,8 @@ describe('links', function() {
 		assert.equal('/1/tomorrow', mdLinks.horoscope.sign.period(1, 'tomorrow'));
 	});
 
-	it('should create country links and .host', function() {
+	it('should create country links and .$host', function() {
 		var mdLinks = links.country('md');
-		assert.equal('news.click.md', mdLinks.news.host);
+		assert.equal('news.click.md', mdLinks.news.$host);
 	});
 });
