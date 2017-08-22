@@ -26,7 +26,11 @@ describe('links', function() {
 	});
 
 	it('should create country links and .$host', function() {
-		var mdLinks = links.country('md');
-		assert.equal('news.click.md', mdLinks.news.$host);
+		var Links = links.country('md');
+		assert.equal('news.click.md', Links.news.$host);
+		assert.equal('meteo.click.md', Links.weather.$host);
+		Links = links.country('ru');
+		assert.equal('news.zborg.ru', Links.news.$host);
+		assert.equal('pogoda.zborg.ru', Links.weather.$host);
 	});
 });
