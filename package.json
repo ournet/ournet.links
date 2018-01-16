@@ -1,6 +1,6 @@
 {
   "name": "ournet.links",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Ournet links",
   "main": "./lib/index.js",
   "scripts": {
