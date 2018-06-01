@@ -1,7 +1,7 @@
-import { Sitemap, createSitemap } from "./sitemap";
+import { Sitemap, createSitemap, ExchangeSitemap, HoroscopeSitemap, PortalSitemap, WeatherSitemap, NewsSitemap } from "./sitemap";
 
 import * as cdn from './cdn';
-export { cdn }
+export { cdn, Sitemap, ExchangeSitemap, HoroscopeSitemap, PortalSitemap, WeatherSitemap, NewsSitemap }
 
 const DATA = require('../ournet-data.json');
 
