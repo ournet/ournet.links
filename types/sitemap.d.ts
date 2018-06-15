@@ -22,6 +22,7 @@ export declare type HoroscopeSitemap = {
     sign: SitemapOneParams & {
         period: SitemapTwoParams;
     };
+    widgets: SitemapNoParams;
 };
 export declare type NewsSitemap = {
     home: SitemapNoParams;

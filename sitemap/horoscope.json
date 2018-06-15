@@ -3,5 +3,8 @@
   "sign": {
     "$url": "/${0}",
     "period": "/${0}/${1}"
+  },
+  "widgets": {
+    "$url": "/widgets"
   }
 }

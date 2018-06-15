@@ -44,6 +44,7 @@ export type ExchangeSitemap = {
 export type HoroscopeSitemap = {
     home: SitemapNoParams
     sign: SitemapOneParams & { period: SitemapTwoParams }
+    widgets: SitemapNoParams
 }
 
 export type NewsSitemap = {
