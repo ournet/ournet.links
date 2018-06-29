@@ -11,10 +11,6 @@
                 "bg": "www.ournet.bg",
                 "it": "www.ournet.it",
                 "in": "www.ournet.in"
-            },
-            "schemas": {
-                "ru": "https:",
-                "ro": "https:"
             }
         },
         "weather": {
@@ -28,8 +24,13 @@
                 "bg": "vremeto.ournet.bg",
                 "it": "meteo.ournet.it",
                 "in": "weather.ournet.in",
-                "al": "moti2.al",
+                "al": "www.moti2.al",
                 "tr": "hava.one"
+            },
+            "schemas": {
+                "ru": "https:",
+                "ro": "https:",
+                "al": "https:"
             }
         },
         "news": {
@@ -56,7 +57,8 @@
         "horoscope": {
             "hosts": {
                 "ro": "horoscop.ournet.ro",
-                "ru": "horoscope.zborg.ru"
+                "ru": "horoscope.zborg.ru",
+                "bg": "horo.ournet.bg"
             },
             "schemas": {
                 "ru": "https:",
