@@ -21,11 +21,11 @@ export function createSitemap(defaultLanguage: string): Sitemap {
 }
 
 export type Sitemap = {
-    portal?: PortalSitemap
-    news?: NewsSitemap
-    weather?: WeatherSitemap
-    exchange?: ExchangeSitemap
-    horoscope?: HoroscopeSitemap
+    portal: PortalSitemap
+    news: NewsSitemap
+    weather: WeatherSitemap
+    exchange: ExchangeSitemap
+    horoscope: HoroscopeSitemap
 }
 
 export type PortalSitemap = {
