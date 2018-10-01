@@ -51,6 +51,7 @@ export type NewsSitemap = {
     home: SitemapNoParams
     item: SitemapTwoParams
     story: SitemapTwoParams<string, number>
+    event: SitemapTwoParams<string, number>
     topic: SitemapOneParams
     topicStories: SitemapOneParams
     topicQuotes: SitemapOneParams
