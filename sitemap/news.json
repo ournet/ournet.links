@@ -1,6 +1,6 @@
 {
   "home": "/",
-  "item": "/item/${0}-${1}",
+  "item": "/item/${0}",
   "story": "/story/${0}-${1}",
   "event": "/event/${0}-${1}",
   "topic": "/topic/${0}",
