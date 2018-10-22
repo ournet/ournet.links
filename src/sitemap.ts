@@ -74,7 +74,7 @@ export type NewsSitemap = {
     rss: {
         stories: SitemapNoParams & {
             topic: SitemapOneParams
-            importent: SitemapNoParams
+            important: SitemapNoParams
         }
     }
 }
