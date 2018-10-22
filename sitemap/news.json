@@ -16,7 +16,8 @@
     "news": "/url/news/${0}"
   },
   "actions": {
-    "viewStory": "/actions/view_story/${0}"
+    "viewStory": "/actions/view_story/${0}",
+    "viewItem": "/actions/view_item/${0}"
   },
   "videoFrame": "/controls/video_frame/${0}",
   "sources": "/sources",
