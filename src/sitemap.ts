@@ -50,14 +50,12 @@ export type HoroscopeSitemap = {
 export type NewsSitemap = {
     home: SitemapNoParams
     item: SitemapOneParams
-    story: SitemapTwoParams<string, number>
-    event: SitemapTwoParams
+    story: SitemapTwoParams
     topic: SitemapOneParams
     topicStories: SitemapOneParams
     topicQuotes: SitemapOneParams
     quote: SitemapOneParams
     quotes: SitemapNoParams
-    category: SitemapOneParams
     search: SitemapNoParams
     important: SitemapNoParams
     popular: SitemapNoParams
