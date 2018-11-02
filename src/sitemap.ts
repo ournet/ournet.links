@@ -45,6 +45,7 @@ export type HoroscopeSitemap = {
     home: SitemapNoParams
     sign: SitemapOneParams & { period: SitemapTwoParams }
     widgets: SitemapNoParams
+    api: SitemapNoParams & { reports: SitemapNoParams }
 }
 
 export type NewsSitemap = {

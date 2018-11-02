@@ -6,5 +6,9 @@
   },
   "widgets": {
     "$url": "/widgets"
+  },
+  "api":{
+    "$url": "/api",
+    "reports": "/api/reports.json"
   }
 }
