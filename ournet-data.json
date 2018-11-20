@@ -58,7 +58,8 @@
             "hosts": {
                 "ro": "horoscop.ournet.ro",
                 "ru": "horoscope.zborg.ru",
-                "bg": "horo.ournet.bg"
+                "bg": "horo.ournet.bg",
+                "md": "horoscop.click.md"
             },
             "schemas": {
                 "ru": "https:",
