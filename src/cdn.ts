@@ -16,7 +16,8 @@ const COUNTRY_MAP: { [index: string]: string } = {
     md: 'click',
     pl: 'diez',
     al: 'moti2',
-    ru: 'zborg'
+    ru: 'zborg',
+    lv: 'meteo2',
 }
 
 export const assets = {
