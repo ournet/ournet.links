@@ -19,12 +19,9 @@
     "viewStory": "/actions/view_story/${0}",
     "viewItem": "/actions/view_item/${0}"
   },
-  "videoFrame": "/controls/video_frame/${0}",
+  "videoEmbed": "/video_embed/${0}",
   "sources": "/sources",
   "source": "/source/${0}",
-  "controls": {
-    "videoFrame": "/controls/video_frame/${0}"
-  },
   "rss": {
     "stories": {
       "$url": "/rss/stories.xml",

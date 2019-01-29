@@ -63,14 +63,12 @@ export type NewsSitemap = {
     video: SitemapNoParams
     url: SitemapNoParams & { news: SitemapOneParams }
     actions: {
-        viewStory: SitemapOneParams,
-        viewItem: SitemapOneParams,
-    },
+        viewStory: SitemapOneParams
+        viewItem: SitemapOneParams
+    }
     sources: SitemapNoParams
     source: SitemapOneParams
-    controls: {
-        videoFrame: SitemapOneParams
-    },
+    videoEmbed: SitemapOneParams
     rss: {
         stories: SitemapNoParams & {
             topic: SitemapOneParams
