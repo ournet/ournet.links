@@ -5,7 +5,9 @@
     "period": "/${0}/${1}"
   },
   "widgets": {
-    "$url": "/widgets"
+    "$url": "/widgets",
+    "widget1Frame": "/widgets/widget1_frame",
+    "widget1Script": "/widgets/widget1_script"
   },
   "api":{
     "$url": "/api",
