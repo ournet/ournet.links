@@ -98,6 +98,10 @@ export type WeatherSitemap = {
     },
     newsletter: {
         unsubscribe: SitemapOneParams
+    },
+    sitemap: {
+        regionIndex: SitemapNoParams
+        regionPlaces: SitemapOneParams
     }
 }
 

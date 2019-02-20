@@ -31,5 +31,9 @@
   "newsletter": {
     "$root": true,
     "unsubscribe": "/newsletter/unsubscribe/${0}"
+  },
+  "sitemap": {
+    "regionIndex": "/sitemap-region-index.xml",
+    "regionPlaces": "/sitemap-region-places-${0}.xml"
   }
 }
