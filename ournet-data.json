@@ -31,7 +31,8 @@
             "schemas": {
                 "ru": "https:",
                 "ro": "https:",
-                "al": "https:"
+                "al": "https:",
+                "in": "https:"
             }
         },
         "news": {
