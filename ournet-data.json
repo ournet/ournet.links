@@ -26,7 +26,8 @@
                 "in": "weather.ournet.in",
                 "al": "www.moti2.al",
                 "tr": "www.hava.one",
-                "lv": "www.meteo2.lv"
+                "lv": "www.meteo2.lv",
+                "kz": "www.meteo2.kz"
             },
             "schemas": {
                 "ru": "https:",
