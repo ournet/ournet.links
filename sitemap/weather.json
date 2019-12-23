@@ -10,8 +10,8 @@
     "$url": "/places",
     "byAdm1": "/places/${0}"
   },
-  "placeDays":"/${0}/${1}days",
-  "placeDate":"/${0}/${1}",
+  "placeDays": "/${0}/${1}days",
+  "placeDate": "/${0}/${1}",
   "widget": {
     "$root": true,
     "$url": "/widget",

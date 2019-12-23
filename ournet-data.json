@@ -1,77 +1,79 @@
 {
-    "projects": {
-        "portal": {
-            "hosts": {
-                "md": "www.click.md",
-                "ru": "www.zborg.ru",
-                "pl": "www.diez.pl",
-                "ro": "www.ournet.ro",
-                "cz": "www.ournet.cz",
-                "hu": "www.ournet.hu",
-                "bg": "www.ournet.bg",
-                "it": "www.ournet.it",
-                "in": "www.ournet.in"
-            }
-        },
-        "weather": {
-            "hosts": {
-                "md": "meteo.click.md",
-                "ru": "pogoda.zborg.ru",
-                "pl": "pogoda.diez.pl",
-                "ro": "meteo.ournet.ro",
-                "cz": "pocasi.ournet.cz",
-                "hu": "idojaras.ournet.hu",
-                "bg": "vremeto.ournet.bg",
-                "it": "meteo.ournet.it",
-                "in": "weather.ournet.in",
-                "al": "www.moti2.al",
-                "tr": "www.hava.one",
-                "lv": "www.meteo2.lv",
-                "kz": "www.meteo2.kz"
-            },
-            "schemas": {
-                "ru": "https:",
-                "ro": "https:",
-                "al": "https:",
-                "in": "https:"
-            }
-        },
-        "news": {
-            "hosts": {
-                "md": "news.click.md",
-                "ru": "news.zborg.ru",
-                "pl": "news.diez.pl",
-                "ro": "news.ournet.ro",
-                "cz": "news.ournet.cz",
-                "hu": "news.ournet.hu",
-                "bg": "news.ournet.bg",
-                "it": "news.ournet.it",
-                "in": "news.ournet.in"
-            }
-        },
-        "exchange": {
-            "hosts": {
-                "md": "curs.click.md",
-                "ru": "kurs.zborg.ru",
-                "ro": "curs.ournet.ro",
-                "bg": "valuta.ournet.bg"
-            }
-        },
-        "horoscope": {
-            "hosts": {
-                "ro": "horoscop.ournet.ro",
-                "ru": "horoscope.zborg.ru",
-                "bg": "horoscope.ournet.bg",
-                "md": "horoscop.click.md",
-                "in": "horoscope.ournet.in",
-                "it": "oroscopo.ournet.it",
-                "cz": "horoskop.ournet.cz",
-                "hu": "horoszkop.ournet.hu"
-            },
-            "schemas": {
-                "ru": "https:",
-                "ro": "https:"
-            }
-        }
+  "projects": {
+    "portal": {
+      "hosts": {
+        "md": "www.click.md",
+        "ru": "www.zborg.ru",
+        "pl": "www.diez.pl",
+        "ro": "www.ournet.ro",
+        "cz": "www.ournet.cz",
+        "hu": "www.ournet.hu",
+        "bg": "www.ournet.bg",
+        "it": "www.ournet.it",
+        "in": "www.ournet.in"
+      }
+    },
+    "weather": {
+      "hosts": {
+        "md": "meteo.click.md",
+        "ru": "pogoda.zborg.ru",
+        "pl": "pogoda.diez.pl",
+        "ro": "meteo.ournet.ro",
+        "cz": "pocasi.ournet.cz",
+        "hu": "idojaras.ournet.hu",
+        "bg": "vremeto.ournet.bg",
+        "it": "meteo.ournet.it",
+        "in": "weather.ournet.in",
+        "al": "www.moti2.al",
+        "tr": "www.hava.one",
+        "lv": "www.meteo2.lv",
+        "kz": "www.meteo2.kz",
+        "vn": "www.thoi.vn"
+      },
+      "schemas": {
+        "ru": "https:",
+        "ro": "https:",
+        "al": "https:",
+        "in": "https:",
+        "vn": "https:"
+      }
+    },
+    "news": {
+      "hosts": {
+        "md": "news.click.md",
+        "ru": "news.zborg.ru",
+        "pl": "news.diez.pl",
+        "ro": "news.ournet.ro",
+        "cz": "news.ournet.cz",
+        "hu": "news.ournet.hu",
+        "bg": "news.ournet.bg",
+        "it": "news.ournet.it",
+        "in": "news.ournet.in"
+      }
+    },
+    "exchange": {
+      "hosts": {
+        "md": "curs.click.md",
+        "ru": "kurs.zborg.ru",
+        "ro": "curs.ournet.ro",
+        "bg": "valuta.ournet.bg"
+      }
+    },
+    "horoscope": {
+      "hosts": {
+        "ro": "horoscop.ournet.ro",
+        "ru": "horoscope.zborg.ru",
+        "bg": "horoscope.ournet.bg",
+        "md": "horoscop.click.md",
+        "in": "horoscope.ournet.in",
+        "it": "oroscopo.ournet.it",
+        "cz": "horoskop.ournet.cz",
+        "hu": "horoszkop.ournet.hu"
+      },
+      "schemas": {
+        "ru": "https:",
+        "ro": "https:"
+      }
     }
+  }
 }
