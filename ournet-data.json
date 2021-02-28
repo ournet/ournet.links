@@ -8,7 +8,7 @@
         "ro": "www.ournet.ro",
         "cz": "www.ournet.cz",
         "hu": "www.ournet.hu",
-        "bg": "www.ournet.bg",
+        "bg": "www.our.bg",
         "it": "www.ournet.it",
         "in": "www.ournet.in"
       }
@@ -21,7 +21,7 @@
         "ro": "meteo.ournet.ro",
         "cz": "pocasi.ournet.cz",
         "hu": "idojaras.ournet.hu",
-        "bg": "vremeto.ournet.bg",
+        "bg": "vremeto.our.bg",
         "it": "meteo.ournet.it",
         "in": "weather.ournet.in",
         "al": "www.moti2.al",
@@ -47,7 +47,7 @@
         "ro": "news.ournet.ro",
         "cz": "news.ournet.cz",
         "hu": "news.ournet.hu",
-        "bg": "news.ournet.bg",
+        "bg": "news.our.bg",
         "it": "news.ournet.it",
         "in": "news.ournet.in"
       }
@@ -57,14 +57,14 @@
         "md": "curs.click.md",
         "ru": "kurs.zborg.ru",
         "ro": "curs.ournet.ro",
-        "bg": "valuta.ournet.bg"
+        "bg": "valuta.our.bg"
       }
     },
     "horoscope": {
       "hosts": {
         "ro": "horoscop.ournet.ro",
         "ru": "horoscope.zborg.ru",
-        "bg": "horoscope.ournet.bg",
+        "bg": "horoscope.our.bg",
         "md": "horoscop.click.md",
         "in": "horoscope.ournet.in",
         "it": "oroscopo.ournet.it",
