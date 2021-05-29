@@ -50,6 +50,12 @@
         "bg": "news.our.bg",
         "it": "news.ournet.it",
         "in": "news.ournet.in"
+      },
+      "schemas": {
+        "ru": "https:",
+        "ro": "https:",
+        "in": "https:",
+        "bg": "https:"
       }
     },
     "exchange": {
