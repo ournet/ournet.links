@@ -28,7 +28,8 @@
         "tr": "www.hava.one",
         "lv": "www.meteo2.lv",
         "kz": "www.meteo2.kz",
-        "vn": "www.thoi.vn"
+        "vn": "www.thoi.vn",
+        "rs": "www.vremenska.rs"
       },
       "schemas": {
         "ru": "https:",
@@ -36,7 +37,8 @@
         "al": "https:",
         "in": "https:",
         "vn": "https:",
-        "tr": "https:"
+        "tr": "https:",
+        "rs": "https:"
       }
     },
     "news": {
