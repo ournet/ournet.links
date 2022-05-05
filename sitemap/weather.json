@@ -6,6 +6,7 @@
   "date": "/${0}",
   "search": "/places",
   "place": "/${0}",
+  "country": "/${0}",
   "places": {
     "$url": "/places",
     "byAdm1": "/places/${0}"

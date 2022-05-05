@@ -11,7 +11,7 @@ export function createSitemap(defaultLanguage: string): Sitemap {
   };
   const links: { [index: string]: any } = {};
 
-  Object.keys(projects).forEach(function(project) {
+  Object.keys(projects).forEach(function (project) {
     links[project] = urlset(
       path.join(__dirname, "..", "sitemap", project + ".json"),
       {
@@ -89,6 +89,7 @@ export type WeatherSitemap = {
   home: SitemapNoParams;
   search: SitemapNoParams;
   place: SitemapOneParams;
+  country: SitemapOneParams;
   places: SitemapNoParams & {
     byAdm1: SitemapOneParams;
   };
