@@ -35,6 +35,7 @@
   },
   "sitemap": {
     "regionIndex": "/sitemap-region-index.xml",
-    "regionPlaces": "/sitemap-region-places-${0}.xml"
+    "regionPlaces": "/sitemap-region-places-${0}.xml",
+    "mainPlaces": "/sitemap-main-places-${0}.xml"
   }
 }

@@ -111,6 +111,7 @@ export type WeatherSitemap = {
   sitemap: {
     regionIndex: SitemapNoParams;
     regionPlaces: SitemapOneParams;
+    mainPlaces: SitemapOneParams;
   };
 };
 
