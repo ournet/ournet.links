@@ -3,7 +3,6 @@
     "portal": {
       "hosts": {
         "md": "www.click.md",
-        "ru": "www.zborg.ru",
         "pl": "www.diez.pl",
         "ro": "www.ournet.ro",
         "cz": "www.ournet.cz",
@@ -16,7 +15,6 @@
     "weather": {
       "hosts": {
         "md": "meteo.click.md",
-        "ru": "pogoda.zborg.ru",
         "pl": "pogoda.diez.pl",
         "ro": "meteo.ournet.ro",
         "cz": "pocasi.ournet.cz",
@@ -32,7 +30,6 @@
         "rs": "www.vremenska.rs"
       },
       "schemas": {
-        "ru": "https:",
         "ro": "https:",
         "al": "https:",
         "in": "https:",
@@ -44,7 +41,6 @@
     "news": {
       "hosts": {
         "md": "news.click.md",
-        "ru": "news.zborg.ru",
         "pl": "news.diez.pl",
         "ro": "news.ournet.ro",
         "cz": "news.ournet.cz",
@@ -54,7 +50,6 @@
         "in": "news.ournet.in"
       },
       "schemas": {
-        "ru": "https:",
         "ro": "https:",
         "in": "https:",
         "bg": "https:"
@@ -63,7 +58,6 @@
     "exchange": {
       "hosts": {
         "md": "curs.click.md",
-        "ru": "kurs.zborg.ru",
         "ro": "curs.ournet.ro",
         "bg": "valuta.our.bg"
       }
@@ -71,7 +65,6 @@
     "horoscope": {
       "hosts": {
         "ro": "horoscop.ournet.ro",
-        "ru": "horoscope.zborg.ru",
         "bg": "horoscope.our.bg",
         "md": "horoscop.click.md",
         "in": "horoscope.ournet.in",
@@ -80,7 +73,6 @@
         "hu": "horoszkop.ournet.hu"
       },
       "schemas": {
-        "ru": "https:",
         "ro": "https:"
       }
     }
