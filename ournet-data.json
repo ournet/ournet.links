@@ -27,7 +27,8 @@
         "lv": "www.meteo2.lv",
         "kz": "www.meteo2.kz",
         "vn": "www.thoi.vn",
-        "rs": "www.vremenska.rs"
+        "rs": "www.vremenska.rs",
+        "hr": "www.vrijeme.one"
       },
       "schemas": {
         "ro": "https:",
@@ -35,7 +36,8 @@
         "in": "https:",
         "vn": "https:",
         "tr": "https:",
-        "rs": "https:"
+        "rs": "https:",
+        "hr": "https:"
       }
     },
     "news": {
