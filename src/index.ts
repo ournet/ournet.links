@@ -32,7 +32,7 @@ export function sitemap(defaultLanguage: string) {
 
 export function getSchema(project: string, country: string): string {
   const data = DATA.projects[project];
-  return (data && data.schemas && data.schemas[country]) || "http:";
+  return (data && data.schemas && data.schemas[country]) || "https:";
 }
 
 export function getHost(project: string, country: string): string {
