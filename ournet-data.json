@@ -9,7 +9,8 @@
         "hu": "www.ournet.hu",
         "bg": "www.our.bg",
         "it": "www.ournet.it",
-        "in": "www.ournet.in"
+        "in": "www.ournet.in",
+        "es": "www.ournet.es"
       }
     },
     "weather": {
@@ -29,7 +30,8 @@
         "vn": "www.thoi.vn",
         "rs": "www.vremenska.rs",
         "hr": "www.vrijeme.one",
-        "ng": "www.meteo.ng"
+        "ng": "www.meteo.ng",
+        "es": "tiempo.ournet.es"
       },
       "schemas": {
         "ro": "https:",
@@ -51,7 +53,8 @@
         "hu": "news.ournet.hu",
         "bg": "news.our.bg",
         "it": "news.ournet.it",
-        "in": "news.ournet.in"
+        "in": "news.ournet.in",
+        "es": "noticias.ournet.es"
       },
       "schemas": {
         "ro": "https:",
