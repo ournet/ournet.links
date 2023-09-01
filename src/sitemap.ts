@@ -69,6 +69,8 @@ export type NewsSitemap = {
   important: SitemapNoParams;
   popular: SitemapNoParams;
   video: SitemapNoParams;
+  page: SitemapOneParams;
+  business: SitemapNoParams;
   url: SitemapNoParams & { news: SitemapOneParams };
   actions: {
     viewStory: SitemapOneParams;
