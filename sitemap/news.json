@@ -13,7 +13,6 @@
   "popular": "/popular",
   "video": "/video",
   "page": "/${0}",
-  "business": "/business",
   "url": {
     "$url": "/url",
     "news": "/url/news/${0}"
