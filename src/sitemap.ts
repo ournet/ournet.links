@@ -61,6 +61,7 @@ export type NewsSitemap = {
   home: SitemapNoParams;
   item: SitemapOneParams;
   story: SitemapTwoParams;
+  article: SitemapTwoParams;
   topic: SitemapOneParams;
   topicStories: SitemapOneParams;
   topicQuotes: SitemapOneParams;
