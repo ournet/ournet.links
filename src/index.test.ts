@@ -1,14 +1,14 @@
 import test from "ava";
 import * as links from "./index";
 
-test("api", t => {
+test("api", (t) => {
   t.true(!!links.cdn);
   t.true(!!links.sitemap);
   t.true(!!links.getHost);
   t.true(!!links.getSchema);
 });
 
-test("sitemap", t => {
+test("sitemap", (t) => {
   let sitemap = links.sitemap("ro");
   t.true(!!sitemap);
   t.is(sitemap.weather.home(), "/");
@@ -16,10 +16,15 @@ test("sitemap", t => {
   t.is(sitemap.weather.home({ ul: "ru" }), "/?ul=ru");
 });
 
-test("cdn", t => {
+test("cdn", (t) => {
   let cdn = links.cdn;
   t.true(!!cdn);
   t.true(!!cdn.assets);
   t.true(!!cdn.wi);
   t.true(!!cdn.wi.stories("a", "id"));
+
+  t.true(
+    cdn.media.image("idauij") ===
+      "//media.ournetcdn.net/images/idau/idauij.jpeg"
+  );
 });

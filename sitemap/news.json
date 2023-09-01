@@ -2,6 +2,7 @@
   "home": "/",
   "item": "/item/${0}",
   "story": "/story/${0}-${1}",
+  "article": "/article/${0}-${1}",
   "topic": "/topic/${0}",
   "topicStories": "/topic/${0}/stories",
   "topicQuotes": "/topic/${0}/quotes",
@@ -11,12 +12,14 @@
   "important": "/important",
   "popular": "/popular",
   "video": "/video",
+  "page": "/${0}",
   "url": {
     "$url": "/url",
     "news": "/url/news/${0}"
   },
   "actions": {
     "viewStory": "/actions/view_story/${0}",
+    "viewArticle": "/actions/view_article/${0}",
     "viewItem": "/actions/view_item/${0}"
   },
   "videoEmbed": "/video_embed/${0}",

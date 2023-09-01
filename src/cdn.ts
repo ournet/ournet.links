@@ -1,5 +1,6 @@
 const WI_HOST = "//wi.ournetcdn.net";
 const ASSETS_HOST = "//assets.ournetcdn.net";
+const MEDIA_HOST = "//media.ournetcdn.net";
 
 export const wi = {
   stories: function (size: string, id: string): string {
@@ -19,7 +20,7 @@ export const wi = {
     return (
       WI_HOST + "/news/" + id.substring(0, 4) + "/" + size + "/" + id + ".jpg"
     );
-  }
+  },
 };
 
 const COUNTRY_MAP: { [index: string]: string } = {
@@ -29,7 +30,7 @@ const COUNTRY_MAP: { [index: string]: string } = {
   ru: "zborg",
   lv: "meteo2",
   kz: "meteo2",
-  vn: "thoi"
+  vn: "thoi",
 };
 
 export const assets = {
@@ -41,6 +42,23 @@ export const assets = {
       nameOrCountry = nameOrCountry || "ournet";
 
       return ASSETS_HOST + "/ournet/img/logos/" + nameOrCountry + "-logo.png";
-    }
-  }
+    },
+  },
+};
+
+export const media = {
+  image: function (
+    id: string,
+    { size, ext }: { size?: string; ext?: string } = {}
+  ): string {
+    size = size || "";
+    ext = ext || ({ j: "jpeg", w: "webp", p: "png" } as any)[id[id.length - 1]];
+
+    return (
+      MEDIA_HOST +
+      ["/images", id.substring(0, 4), size, `${id}.${ext}`]
+        .filter((it) => !!it)
+        .join("/")
+    );
+  },
 };
