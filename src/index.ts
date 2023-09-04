@@ -39,3 +39,13 @@ export function getHost(project: string, country: string): string {
   const data = DATA.projects[project];
   return (data && data.hosts && data.hosts[country]) || undefined;
 }
+
+export function toFullUrl(
+  project: string,
+  country: string,
+  path: string
+): string {
+  const schema = getSchema(project, country);
+  const host = getHost(project, country);
+  return `${schema}//${host}${path}`;
+}
