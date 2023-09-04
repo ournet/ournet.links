@@ -38,7 +38,6 @@ export type Sitemap = {
 
 export type PortalSitemap = {
   home: SitemapNoParams;
-  business: SitemapNoParams;
 };
 
 export type ExchangeSitemap = {
@@ -61,7 +60,7 @@ export type NewsSitemap = {
   home: SitemapNoParams;
   item: SitemapOneParams;
   story: SitemapTwoParams;
-  article: SitemapTwoParams;
+  article: SitemapTwoParams | SitemapNoParams;
   topic: SitemapOneParams;
   topicStories: SitemapOneParams;
   topicQuotes: SitemapOneParams;
