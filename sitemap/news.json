@@ -3,7 +3,6 @@
   "item": "/item/${0}",
   "story": "/story/${0}-${1}",
   "article": "/article/${0}-${1}",
-  "ads": "/ads",
   "topic": "/topic/${0}",
   "topicStories": "/topic/${0}/stories",
   "topicQuotes": "/topic/${0}/quotes",
